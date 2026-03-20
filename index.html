@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Pronta para Reuniões</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts: Inter and Outfit for a highly premium typographic pairing -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons for ultra-sleek iconography -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- GSAP for buttery smooth animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1294992575792335');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=1294992575792335&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+
+    <!-- Cinematic Background -->
+    <div class="bg-noise"></div>
+    <div class="mesh-gradient">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Grid overlay -->
+    <div class="grid-overlay"></div>
+
+    <main class="container">
+        <!-- 3D Tilt Card Wrapper -->
+        <div class="glass-card" id="tilt-card">
+
+            <div class="badge-container animate-element">
+                <div class="badge-glow"></div>
+                <span class="badge">
+                    <i class="ph-fill ph-star"></i>
+                    Apenas para Empresários e Mentores que vendem
+                </span>
+            </div>
+
+            <h1 class="headline animate-element">
+                Esse sistema vai adicionar<br />
+                <span class="text-gradient">30 a 50K</span>
+                com <span class="text-gradient">1 único</span> conteúdo automático
+            </h1>
+            <p class="subheadline animate-element">
+                <i class="ph-bold ph-infinity infinity-icon"></i>
+                Que roda semanalmente no automático. <br />
+            </p>
+            <span class="highlight-sub">O que você vai ver no ao vivo.</span>
+
+            <!-- Carousel Player Frame 1:1 -->
+            <div class="carousel-container animate-element">
+                <div class="carousel-wrapper">
+                    <div class="carousel-track">
+                        <!-- Slide 1 -->
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Slide 1">
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Slide 2">
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Slide 3">
+                        </div>
+                    </div>
+
+                    <!-- Navigation Arrows -->
+                    <button class="carousel-btn prev-btn"><i class="ph-bold ph-caret-left"></i></button>
+                    <button class="carousel-btn next-btn"><i class="ph-bold ph-caret-right"></i></button>
+
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <span class="slider-dot active"></span>
+                        <span class="slider-dot"></span>
+                        <span class="slider-dot"></span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="subheadline animate-element">
+                <i class="ph ph-whatsapp-logo text-green"></i>
+                O link te leva pra um grupo silencioso no WhatsApp. <br />
+                <span class="highlight-sub">Hoje ás 19hrs eu mando lá o link da grupo.</span>
+            </p>
+
+            <div class="cta-wrapper animate-element">
+                <div class="pulse-ring"></div>
+                <a href="https://chat.whatsapp.com/CE3DEtCftM4ECjxmMr5zxW" class="cta-button" id="whatsapp-link" onclick="if(typeof fbq==='function') fbq('track', 'Lead')">
+                    <span class="cta-content">
+                        <i class="ph-fill ph-whatsapp-logo"></i>
+                        QUERO PARTICIPAR DE GRAÇA
+                    </span>
+                    <div class="cta-hover-glow"></div>
+                </a>
+            </div>
+
+            <div class="bonus-box animate-element">
+                <div class="bonus-icon-wrapper">
+                    <div class="bonus-icon-bg"></div>
+                    <i class="ph-fill ph-gift bonus-icon"></i>
+                </div>
+                <div class="bonus-text">
+                    <span class="bonus-title">🔥 Bônus Imediato (no grupo):</span>
+                    <p>Uma página de alta conversão, feita pela nossa equipe <strong> personalizada para você</strong>
+                        para seu produto ou serviço.</p>
+                </div>
+            </div>
+
+            <div class="expectations animate-element">
+                <h3>O que você vai descobrir na live:</h3>
+                <ul>
+                    <li>
+                        <div class="check-icon-wrapper">
+                            <i class="ph-bold ph-check"></i>
+                        </div>
+                        <div>
+                            <strong>Criativos validados para gerar leads todos os dias</strong>
+                            <p>Sem depender de indicação ou ficar preso criando conteúdo sem parar.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon-wrapper">
+                            <i class="ph-bold ph-check"></i>
+                        </div>
+                        <div>
+                            <strong>Um único conteúdo que vende no automático</strong>
+                            <p>Ele trabalha por você, atrai, aquece e prepara o cliente pra comprar.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon-wrapper">
+                            <i class="ph-bold ph-check"></i>
+                        </div>
+                        <div>
+                            <strong>Como eliminar calls e curiosos de vez</strong>
+                            <p>Só fala com quem já chega pronto, decidido e querendo fechar.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="check-icon-wrapper">
+                            <i class="ph-bold ph-check"></i>
+                        </div>
+                        <div>
+                            <strong>Um sistema que gera vendas quase no piloto automático</strong>
+                            <p>Mais dinheiro entrando, com menos esforço e sem depender de você o tempo todo.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="animate-element">
+        <p>D²X Negócios Digitais LTDA &middot; CNPJ 49.172.076/0001-93</p>
+        <p class="copyright">&copy; 2026 Todos os direitos reservados. Este site não tem vínculo com o Facebook, Google
+            ou WhatsApp.</p>
+    </footer>
+
+    <!-- JS for Magic Effects -->
+    <script src="script.js"></script>
+</body>
+
+</html>
